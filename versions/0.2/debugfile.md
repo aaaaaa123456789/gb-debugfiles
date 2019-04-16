@@ -1309,7 +1309,7 @@ $0000         x                                   : message rstmessage; reset
 $0038         x                                   : message rstmessage; reset
 
 $0000         rw                                  : message "Null pointer access at %@rombank:$2%:%@:$4%!";
-                                                     if @op == 1;
+                                                    if @op == 1;
                                                          break
 
 ; track iterations of this loop
